@@ -1,0 +1,8 @@
+name: scp-workflow
+on: [push]
+jobs: 
+  scp-job:
+    runs-on: self-hosted
+    steps: 
+      - run: ls
+      - run: pwd
