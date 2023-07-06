@@ -4,5 +4,4 @@ jobs:
   scp-job:
     runs-on: self-hosted
     steps: 
-      - run: ls
-      - run: pwd
+      - run: cp index.html /var/www/html
